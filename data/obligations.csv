@@ -1,0 +1,31 @@
+obligation_type,due_date,responsible_person,clause_text
+Payment,15 August 2026,Finance Team,Payment must be completed before the due date.
+Renewal,31 December 2026,Legal Team,Contract must be renewed before expiry.
+Notice Period,30 days notice,HR Team,Termination requires 30 days advance notice.
+Payment,10 September 2026,Accounts Team,Monthly service payment must be made on time.
+Renewal,01 January 2027,Admin Team,Agreement renewal must be reviewed before the new year.
+Notice Period,45 days notice,Legal Team,Either party must provide 45 days notice before termination.
+Payment,20 October 2026,Finance Manager,Vendor payment must be completed by the due date.
+Renewal,15 March 2027,Operations Team,Service contract should be renewed before March deadline.
+Notice Period,60 days notice,Compliance Team,Contract cancellation requires 60 days notice.
+Payment,05 November 2026,Accounts Department,License fee payment is due before the mentioned date.
+Renewal,30 June 2027,Legal Department,Annual contract renewal is required before June end.
+Notice Period,15 days notice,Project Manager,Short-term agreement requires 15 days notice.
+Payment,25 December 2026,Finance Team,Final payment must be released before contract closure.
+Renewal,10 April 2027,Admin Department,Maintenance contract renewal is required.
+Notice Period,90 days notice,Legal Team,Long-term contract termination requires 90 days notice.
+Payment,18 August 2026,Finance Officer,Advance payment must be processed as per contract terms.
+Renewal,22 May 2027,Operations Manager,Subscription renewal must be completed before deadline.
+Notice Period,30 days notice,HR Department,Employee service agreement requires advance notice.
+Payment,12 July 2026,Accounts Officer,Quarterly payment must be made by the due date.
+Renewal,05 February 2027,Legal Advisor,Software agreement renewal should be reviewed.
+Notice Period,45 days notice,Admin Team,Vendor termination requires written notice.
+Payment,28 September 2026,Finance Team,Service charges must be paid before due date.
+Renewal,18 August 2027,Procurement Team,Vendor contract renewal must be approved.
+Notice Period,60 days notice,Operations Team,Service discontinuation requires 60 days notice.
+Payment,03 October 2026,Accounts Team,Penalty applies if payment is delayed.
+Renewal,14 November 2027,Legal Team,Partnership agreement renewal is required.
+Notice Period,30 days notice,Compliance Officer,Notice must be provided before ending the agreement.
+Payment,09 December 2026,Finance Manager,Invoice payment must be cleared before deadline.
+Renewal,21 January 2027,Admin Manager,Contract renewal decision must be taken before expiry.
+Notice Period,75 days notice,Legal Department,Agreement termination requires 75 days prior notice.

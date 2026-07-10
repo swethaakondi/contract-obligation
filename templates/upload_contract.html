@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Contract</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<nav>
+    <a href="/dashboard">Dashboard</a>
+    <a href="/upload">Upload Contract</a>
+    <a href="/obligations">Obligations</a>
+    <a href="/report">Report</a>
+    <a href="/reminders">Reminders</a>
+</nav>
+
+<h1>Upload Contract</h1>
+
+<form method="POST">
+    <input type="text" name="contract_name" placeholder="Contract Name" required>
+
+    <textarea name="contract_text" placeholder="Paste contract text here" required></textarea>
+
+    <button type="submit">Extract Obligations</button>
+
+    <br><br>
+    <a href="/dashboard" class="btn">Back to Dashboard</a>
+</form>
+
+</body>
+</html>

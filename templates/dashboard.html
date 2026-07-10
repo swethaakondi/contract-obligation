@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <nav>
+        <a href="/dashboard">Dashboard</a>
+        <a href="/upload">Upload Contract</a>
+        <a href="/obligations">Obligations</a>
+        <a href="/report">Report</a>
+        <a href="/reminders">Reminders</a>
+    </nav>
+
+    <div class="dashboard-hero">
+        <h1>📑 Contract Obligation Reminder System</h1>
+        <p>AI-powered dashboard to manage contracts, obligations, risks, and reminders.</p>
+    </div>
+
+    <div class="quick-actions">
+        <a href="/upload" class="btn">＋ Upload Contract</a>
+        <a href="/obligations" class="btn">View Obligations</a>
+        <a href="/reminders" class="btn">View Reminders</a>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <h3>📁 Total Contracts</h3>
+            <p>{{ total_contracts }}</p>
+        </div>
+
+        <div class="card">
+            <h3>📋 Total Obligations</h3>
+            <p>{{ total_obligations }}</p>
+        </div>
+
+        <div class="card">
+            <h3>⚠️ High Risk</h3>
+            <p>{{ high_risk }}</p>
+        </div>
+    </div>
+
+    <h2>Recent Obligations</h2>
+
+    <table>
+        <tr>
+            <th>Type</th>
+            <th>Due Date</th>
+            <th>Risk</th>
+        </tr>
+
+        {% for item in recent_obligations %}
+        <tr>
+            <td>{{ item[0] }}</td>
+            <td>{{ item[1] }}</td>
+
+            {% if item[2] == "High" %}
+            <td><span class="risk-high">🔴 High</span></td>
+            {% elif item[2] == "Medium" %}
+            <td><span class="risk-medium">🟡 Medium</span></td>
+            {% else %}
+            <td><span class="risk-low">🟢 Low</span></td>
+            {% endif %}
+        </tr>
+        {% endfor %}
+    </table>
+
+    <footer>
+        Contract Obligation Reminder System © 2026
+    </footer>
+
+</div>
+
+</body>
+</html>

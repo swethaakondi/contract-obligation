@@ -1,0 +1,18 @@
+Contract 1:
+The Finance Team must complete payment before 15 August 2026.
+The Legal Team shall renew the contract before 31 December 2026.
+The HR Team must provide notice before termination.
+
+--------------------------------------------------
+
+Contract 2:
+The Accounts Department must pay the vendor before 10 September 2026.
+The Legal Department shall review renewal terms before 01 January 2027.
+A notice period of 30 days is required before cancellation.
+
+--------------------------------------------------
+
+Contract 3:
+The Procurement Team must complete payment before 20 October 2026.
+The Contract Management Team shall renew the agreement before 15 March 2027.
+Notice must be provided 30 days before termination.
